@@ -72,19 +72,12 @@ textarea {
 .common-title{font-size: 8.2rem;font-family: 'Playfair Display', serif;color: $PrimaryColor;font-weight: 700;margin-bottom: 3.2rem;}
 .common-subHeading{font-size: 3.2rem;font-family: 'Open Sans', sans-serif;color: $BlackColor;font-weight: 400;margin-bottom: 0;}
 
-.shareAndGoToTop{position: fixed; right: 7rem;bottom: 8rem; border-radius: 3rem; box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08); background: $WhiteColor; display: flex; align-items: center; padding: 1rem 2rem;
-  .action-col{background: transparent;border: none;font-size: 12px;color: $BlackColor; font-family: 'Open Sans', sans-serif; font-weight: 600;
-    img{margin-left: .8rem;}
-    &.action-col + .action-col{margin-left: 1rem;padding-left: 1rem;border-left: 1px solid #EAEAEA;}
-  }
-}
-
 @media (min-width: 1400px) {
     .container, 
     .container-lg, 
     .container-md, 
     .container-sm, 
     .container-xl, 
-    .container-xxl { max-width: 1248px; }
+    .container-xxl { max-width: 1200px; }
 }
 .container-fluid { width: min(95%, 1700px); }

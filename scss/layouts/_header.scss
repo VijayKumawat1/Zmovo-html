@@ -1,9 +1,17 @@
 .zmovo-header{padding: 1.9rem 0; background: #060615;
-  .container{display: flex;align-items: center;justify-content: space-between;max-width: 1266px;}
-  ul{display: flex;align-items: center;list-style: none; margin: 0;
+  .container{display: flex;align-items: center;justify-content: space-between;
+    .btn{font-size: 13px;width: 8rem; height: 3.4rem;margin-left: 2rem;}
+    nav{display: flex;align-items: center;}
+    .search-bx{margin-left: 2rem; position: relative;
+      i{position: absolute;right: 1.4rem;top: 50%;transform: translateY(-50%);}
+      input{border-radius: 5rem;background: #000011;height: 3.4rem;border: none;color: $WhiteColor;min-width: 27rem;padding-right: 4rem;padding-left: 2rem;}
+    }
+  }
+  ul{display: flex;align-items: center;list-style: none; margin: 0; padding: 0;
     li{
-      + li{margin-left: 4.8rem;}
+      + li{margin-left: 3rem;}
       a{color: $WhiteColor; font-weight: 400; font-family: 'Inter', sans-serif; font-size: 1.6rem;
+        i{font-size: 1rem;}
         &.active,
         &:hover{color: $PrimaryColor;}
       }
