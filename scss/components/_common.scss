@@ -1,6 +1,6 @@
 $PrimaryColor:#00b9ec;
 $SecondaryColor:#ff7800;
-$ThirdColor:#060615;
+$BodyBg:#02020f;
 $WhiteColor:#ffffff;
 $BlackColor:#000000;
 $LightBg:#242424;
@@ -21,7 +21,7 @@ $LightBg:#242424;
 
 html { font-size: 62.5%; scroll-behavior: smooth; overflow-x: hidden;}
 img { max-width: 100%; }
-body { overflow-x: hidden; font-weight: normal; font-size: initial; font-family: 'Open Sans', sans-serif; color: $BlackColor; }
+body { overflow-x: hidden; font-weight: normal; font-size: initial; font-family: 'Open Sans', sans-serif; color: $WhiteColor; background: $BodyBg;}
 
 
 // font-family: 'Open Sans', sans-serif;
