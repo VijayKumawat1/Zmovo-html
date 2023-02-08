@@ -67,10 +67,14 @@ textarea {
 
 
 .container { padding-left: 15px; padding-right: 15px; }
-.row { --bs-gutter-x:2.4rem; }
+.row { --bs-gutter-x:3rem; }
 
-.common-title{font-size: 8.2rem;font-family: 'Playfair Display', serif;color: $PrimaryColor;font-weight: 700;margin-bottom: 3.2rem;}
-.common-subHeading{font-size: 3.2rem;font-family: 'Open Sans', sans-serif;color: $BlackColor;font-weight: 400;margin-bottom: 0;}
+.common-section{padding: 5rem 0;}
+.common-heading{padding-bottom: 1.7rem; border-bottom: 1px solid #11111d; margin-bottom: 3rem;
+  h2{font-size: 1.6rem;font-weight: 700;font-family: 'Poppins', sans-serif;
+    &::before{content: "";width: 3px;height: 11px;background: $WhiteColor;display: inline-block;margin-right: 1.7rem;}
+  }
+}
 
 @media (min-width: 1400px) {
     .container, 

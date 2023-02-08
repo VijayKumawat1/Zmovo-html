@@ -1,6 +1,8 @@
-.btn { font-size: 16px; border: none;  @include CommonFlex(inline-flex, center, center, null); background: $PrimaryColor; font-family: 'Inter', sans-serif; border-radius: 3px;
-    img{margin-left: 1.2rem;}
+.btn { font-size: 16px; outline: 3px solid rgba(255, 255, 255, 0.3); border: none;@include CommonFlex(inline-flex, center, center, null); background: transparent; font-family: 'Open Sans', sans-serif; font-weight: 600; border-radius: 3px; width: 17rem; height: 5.3rem;
+    i{margin-left: 1rem;font-size: 13px;color: $SecondaryColor;}
     &.btn-primary { color: $WhiteColor;
-        &:hover { background: $SecondaryColor; color: $WhiteColor; }
+        &:hover { background: $PrimaryColor; color: $WhiteColor; 
+            i{color: $WhiteColor;}
+        }
     }
 }
