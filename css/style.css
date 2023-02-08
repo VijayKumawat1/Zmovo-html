@@ -268,7 +268,7 @@ textarea:hover, textarea:focus {
   width: 5.4rem;
   height: 5.4rem;
   border-radius: 50%;
-  background: #02020f;
+  background: #02020f !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -285,7 +285,7 @@ textarea:hover, textarea:focus {
   display: none;
 }
 .banner-section .owl-nav button:hover {
-  background: #00b9ec;
+  background: #00b9ec !important;
 }
 .banner-section .owl-nav button.owl-prev::after {
   transform: rotate(180deg);
