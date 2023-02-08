@@ -363,7 +363,7 @@ textarea:hover, textarea:focus {
   background: #35353f;
   display: inline-block;
   position: relative;
-  top: 2px;
+  top: 3px;
 }
 .owl-slider-section .owl-nav button.owl-next span {
   padding-right: 0;

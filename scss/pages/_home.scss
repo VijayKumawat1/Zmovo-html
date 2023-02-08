@@ -51,7 +51,7 @@
         button{display: flex; align-items: center; color: #eeeeef;
             span{padding: 0 1.3rem;font-size: 2.5rem;line-height: 0;}
             &.owl-prev{
-                &::after{content: "";width: 1px;height: 1.8rem;background: #35353f;display: inline-block;position: relative;top: 2px;}
+                &::after{content: "";width: 1px;height: 1.8rem;background: #35353f;display: inline-block;position: relative;top: 3px;}
             }
             &.owl-next{
                 span{padding-right: 0;}
